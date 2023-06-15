@@ -1,0 +1,43 @@
+@media screen and (min-width: 690px) and (max-width: 1130px) {
+    html {
+        scroll-behavior: smooth;
+        transition: 2s;
+    }
+    .my_menu ul li {
+        font-size: 1.3vw;
+    }
+    .my_menu button {
+        padding: 10px;
+        font-size: 1vw;
+    }
+    .jumbotron {
+        padding: 0px;
+        margin: 0px
+    }
+    .jumbotron {
+        padding: 0px;
+        margin: 0px;
+        background-position: 0px;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    .part_footer {
+        width: 50%;
+    }
+    .bg_2 p {
+        font-size: 1vw;
+    }
+    .my_animals {
+        height: 600px;
+    }
+    .my_animals div {
+        margin-bottom: 20px;
+    }
+    .bg_4 p {
+        font-size: 1vw;
+    }
+    .info p {
+        font-size: 1.5vw;
+    }
+}

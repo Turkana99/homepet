@@ -1,0 +1,71 @@
+@media screen and (max-width: 689px) {
+    html {
+        scroll-behavior: smooth;
+        transition: 2s;
+    }
+    .my_img {
+        width: 100%;
+        justify-content: center;
+    }
+    .my_menu {
+        height: 350px;
+        background-color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar {
+        position: static;
+    }
+    .my_menu ul li {
+        display: block;
+        text-align: center;
+    }
+    .my_menu ul li:hover {
+        color: white!important;
+        background-color: #D93C3D;
+        padding-top: 10px;
+    }
+    .my_menu ul li a:hover {
+        color: white!important;
+    }
+    .jumbotron {
+        padding: 0px;
+        margin: 0px;
+        background-position: 0px;
+    }
+    .bg_2 {
+        width: 100%;
+        left: 0;
+        height: 600px;
+    }
+    .my_animals div {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 300px;
+    }
+    .my_animals {
+        height: 1350px;
+    }
+    .bg_4 {
+        width: 100%;
+        left: 0;
+        height: 600px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .info {
+        margin-top: 70px;
+    }
+    .bg_6 {
+        width: 100%;
+        left: 0;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .part_footer {
+        width: 100%;
+    }
+}
